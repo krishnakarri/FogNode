@@ -1,0 +1,25 @@
+
+
+compile all the java files
+
+javac *.java
+
+
+run the programs as 
+
+
+cd /cygdrive/c/Users/krishna/Desktop/Project/FOG_Node/src
+
+Java fogNode 25 1000 127.0.0.1 3001 5001 127.0.0.1 5002 > fog1-log.txt 2>&1 &
+
+Java fogNode 30 1000 127.0.0.1 3002 5002 127.0.0.1 5001 127.0.0.1 5003 127.0.0.1 5004 127.0.0.1 5006 > fog2-log.txt 2>&1 &
+
+Java fogNode 15 1000 127.0.0.1 3003 5003 127.0.0.1 5002 127.0.0.1 5005 > fog3-log.txt 2>&1 &
+
+Java fogNode 20 1000 127.0.0.1 3004 5004 127.0.0.1 5002 127.0.0.1 5006 > fog4-log.txt 2>&1 &
+
+Java fogNode 35 1000 127.0.0.1 3005 5005 127.0.0.1 5003 127.0.0.1 5006 > fog5-log.txt 2>&1 &
+
+Java fogNode 40 1000 127.0.0.1 3006 5006 127.0.0.1 5002 127.0.0.1 5004 127.0.0.1 5005 > fog6-log.txt 2>&1 &
+
+java -jar ../IoTNodeReqGen.jar ../config.txt > output.txt 2>&1 &

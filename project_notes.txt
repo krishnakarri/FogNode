@@ -8,7 +8,7 @@ javac *.java
 run the programs as 
 
 
-cd /cygdrive/c/Users/krishna/Desktop/Project/FOG_Node/src
+cd /cygdrive/c/Users/<....>/Desktop/Project/FOG_Node/src
 
 Java fogNode 25 1000 127.0.0.1 3001 5001 127.0.0.1 5002 > fog1-log.txt 2>&1 &
 
